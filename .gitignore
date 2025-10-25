@@ -4,3 +4,24 @@ ANIME_RECOMMENDER.egg-info/
 .env/
 __pycache__/
 .ipynb_checkpoints/
+
+# Ignore virtual environments
+airecommend/
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.dll
+*.so
+*.dylib
+
+# Ignore IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore Chroma DB and cache
+chroma_db/
+.cache/
